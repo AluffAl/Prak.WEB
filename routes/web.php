@@ -18,7 +18,7 @@ Route::get('/beranda', [authController::class, 'beranda'])->name('beranda');
 
 Route::get('/penjumlahan', [authController::class, 'penjumlahan'])->name('penjumlahan');
 
-
+Route::get('/validation', [authController::class, 'validation'])->name('validation');
 
 
 

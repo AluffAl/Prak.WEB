@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penjumlahan</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -50,8 +51,8 @@
         }
 
         .btn-gray {
-            background-color: #ccc;
-            color: black;
+            background-color: #b70000;
+            color: rgb(255, 255, 255);
         }
 
         .result {
@@ -65,10 +66,10 @@
 <body>
     <div class="container">
         <h2>Penjumlahan</h2>
-        <label for="bilangan1">Bilangan pertama</label>
-        <input type="number" id="bilangan1" placeholder="Masukkan bilangan pertama">
-        <label for="bilangan2">Bilangan kedua</label>
-        <input type="number" id="bilangan2" placeholder="Masukkan bilangan kedua">
+        <label for="bilangan1">Angka pertama</label>
+        <input type="number" id="bilangan1" placeholder="Masukkan Angka pertama">
+        <label for="bilangan2">Angka kedua</label>
+        <input type="number" id="bilangan2" placeholder="Masukkan Angka kedua">
         <div style="text-align: center;">
             <button class="btn-green" onclick="hitung()">Jumlahkan</button>
             <button class="btn-gray" onclick="reset()">Reset</button>

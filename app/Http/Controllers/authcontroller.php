@@ -24,4 +24,8 @@ class authController extends Controller
     public function penjumlahan() {
         return view('auth.penjumlahan');
     }
+
+    public function validation() {
+        return view('auth.validation');
+    }
 }
