@@ -20,4 +20,8 @@ class authController extends Controller
     public function beranda() {
         return view('auth.beranda');
     }
+
+    public function penjumlahan() {
+        return view('auth.penjumlahan');
+    }
 }
