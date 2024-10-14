@@ -28,4 +28,13 @@ class authController extends Controller
     public function validation() {
         return view('auth.validation');
     }
+
+    public function kalkulator() {
+        return view('auth.kalkulator');
+    }
+
+    public function todolist() {
+        return view('auth.todolist');
+    }
 }
+

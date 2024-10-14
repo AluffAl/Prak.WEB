@@ -20,8 +20,9 @@ Route::get('/penjumlahan', [authController::class, 'penjumlahan'])->name('penjum
 
 Route::get('/validation', [authController::class, 'validation'])->name('validation');
 
+Route::get('/kalkulator', [authController::class, 'kalkulator'])->name('kalkulator');
 
-
+Route::get('/todolist', [authController::class, 'todolist'])->name('todolist');
 
 
 
