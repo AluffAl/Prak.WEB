@@ -18,8 +18,8 @@
 
         .container {
             background-color: white;
-            padding: 20px;
-            border-radius: 10px;
+            padding: 30px;
+            border-radius: 30px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -32,7 +32,7 @@
             padding: 10px;
             margin: 10px 0;
             font-size: 16px;
-            border-radius: 5px;
+            border-radius: 30px;
             border: 1px solid #ccc;
         }
 
